@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Fri, 13 Nov 2015 10:03:04 -0700
+
+I am updating my OpenPGP key to more modern and secure crypto. My classic
+key was created in 1997 and is no longer cryptographically strong.
+
+The new key is a 4096 bit RSA key created with GnuPG 2.0.22, using the SHA-2
+hash family. I am working to integrate this new key into the global web of
+trust.
+
+This message is signed by both keys to certify the transition.
+
+The old key was:
+
+pub   1024R/35261E21 1997-09-08
+      Key fingerprint = 64 BE 13 19 CC F6 D3 93  BF 87 FF 93 58 A6 D4 EE
+uid                  Jason Gunthorpe <jgg@debian.org>
+uid                  Jason Gunthorpe <jgg@gpu.srv.ualberta.ca>
+
+And the new key is:
+
+pub   4096R/553C74FA 2015-11-13
+      Key fingerprint = F086 47C2 7728 D5D2 EB7A  5F5A A5F4 6BDD 553C 74FA
+uid                  Jason Gunthorpe <jgunthorpe@obsidianresearch.com>
+uid                  Jason Gunthorpe <jgunthorpe@gmail.com>
+
+To fetch the full key, you can get it with:
+
+  wget -q -O- https://quartz.obsidianresearch.com/~jgg/jgunthorpe.gpg | gpg --import -
+
+Or, to fetch my new key from a public key server, you can simply do:
+
+  gpg --keyserver keys.gnupg.net --recv-key 553C74FA
+
+I would appreciate it if any new signatures can be uploaded to a keyserver:
+
+  gpg --keyserver keys.gnupg.net --send-key 553C74FA
+
+Regards,
+Jason
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+iQCVAwUBVkYbFtxNMr81Jh4hAQj6rQQAocSq/FpdAaaib/Uf2lyZFq6FQTljBzYK
+WByhvQadFrQYgq+5ju2yMWwUvFleSN1XgqhN596kiCIOr/bVLLMhuTgs5SHN7+3+
+rIWQTGxQME4GpPZEHC/sbuuGHiHye7I64sVMnscnSN6RmP/OL62qzRChwqFDPJ8P
+ZGqrvmrcQGOJAhwEAQEIAAYFAlZGGxYACgkQpfRr3VU8dPrIbQ/+MYr0dlmvAQbE
+i5LXWfzqPgmYYpT/edwv0X1qctfUz82YKOpIKtMYdMsSDgVUiLozdZ/PLrlULlDn
+gC2n/tADpWLqQrTIiUIp/3SE29BLc1vEOBqub8f4c+LPPOOBnmzP3cYy1vQsdzZg
+OXpWyNkE/AINN3CieQtVKxiyic4P9866KQqYm6+cSzMYW2HCyVz2XkG5R7gYj7Oy
+hDWbbiymGy7Fb3qkLaeeYoRpRIx9t4mT/nQy9k+r1gS7c5oJAECz9vRNg9zF4gL8
+ujq6HWeDSkFxutpm7i20t5yklA6YEUXMVNvz6ujDxUMx2qyai55CP2Yk2KscOSry
+2MCnw1/TU0EuzUxeW9ZOw+W2fgLqIudI1PitwtpOt0mPnyiPb5EgiBeRmSZeZoDW
+K5uBLyl3MATrquT1YcQnhqtjHkqDJvtFgfOqhyvnHQoFz97Xk9kq1G50BAQDhpZV
+JU9xNRE/9N7AB+02c8Dvwi+hW5dGiDBlo6VBRdaaIdhuWGfVqWqyYYMeXDTvRmiv
+7mpKEesmKn10MBdlHn+Fgtk+dINe24U7T5CcGwUBieoZEKFyBiXC56jVy3XCIQTi
+9rwFqEbnF6g6RczCubEWwJMsIEv2z1cDquwND11+x+2603V7ET6oESCilAQ709xJ
+kR4Y22e2dQjDmflmXqaAmPe8Bzcwntg=
+=ZOxD
+-----END PGP SIGNATURE-----
