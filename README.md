@@ -9,12 +9,16 @@
 [Current](pgp/jgunthorpe.gpg):
 
 ```
-pub   4096R/553C74FA 2015-11-13
-uid                  Jason Gunthorpe <jgg@mellanox.com>
-uid                  Jason Gunthorpe <jgg@ziepe.ca>
-uid                  Jason Gunthorpe <jgunthorpe@obsidianresearch.com>
-uid                  Jason Gunthorpe <jgunthorpe@gmail.com>
-sub   4096R/623EA0A4 2015-11-13
+pub   rsa4096/553C74FA 2015-11-13 [SC]
+      Key fingerprint = F086 47C2 7728 D5D2 EB7A  5F5A A5F4 6BDD 553C 74FA
+uid                    Jason Gunthorpe <jgg@kernel.org>
+uid                    Jason Gunthorpe <jgg@mellanox.com>
+uid                    Jason Gunthorpe <jgg@ziepe.ca>
+uid                    Jason Gunthorpe <jgunthorpe@obsidianresearch.com>
+uid                    Jason Gunthorpe <jgunthorpe@gmail.com>
+sub   rsa4096/623EA0A4 2015-11-13 [E]
+sub   rsa4096/7E209B1A 2017-12-04 [S]
+sub   rsa4096/186F7AAF 2017-12-04 [A]
 ```
 
 Historical key ([transition document](pgp/transition.txt)):
